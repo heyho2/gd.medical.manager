@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  width: 6px;
+  /*对垂直流动条有效*/
+  height: 10px;
+  /*对水平流动条有效*/
+}
+/*定义滚动条的轨道颜色、内阴影及圆角*/
+::-webkit-scrollbar-track {
+  display: none;
+}
+/*定义滑块颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  background: #ddd;
+}
+/*定义两端按钮的样式*/
+::-webkit-scrollbar-button {
+  background-color: #ffffff;
+}
+/*定义右下角汇合处的样式*/
+::-webkit-scrollbar-corner {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}
